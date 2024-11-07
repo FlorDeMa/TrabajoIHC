@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9bc01e1fd5.js" crossorigin="anonymous"></script>
+    <title>GreenSpaces</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">        
+        <div class="header-above"> 
+            <div class="menu container">
+                <div class="logo-container">
+                    <img src="Imagenes/logo.png" class="logo-img">
+                    <a href="#" class="logo-text">GreenSpaces</a>
+                </div>
+                <input type="checkbox" id="menu-toggle"/>
+                <label for="menu-toggle">
+                    <img src="Imagenes/menu.png" class="menu-icono" alt="menu-hamburger">
+                </label>
+                <nav class="nav-menu">
+                    <ul>
+                        <li> <a href="#">Inicio</a></li>
+                        <li> <a href="#">Sobre Nosotros</a>
+                            <ul class="menu-vertical">
+                                <li><a href="#our-values">Nuestros Valores</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="#">Nuestra propuesta</a>
+                            <ul class="menu-vertical">
+                                <li><a href="#how-we-do-it">Como lo hacemos</a></li>
+                                <li><a href="#benefits-container">Beneficios</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="#inscription-section">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="registrate butons">
+                    <a href="Registrate//login.html">Registrarse</a> 
+                </div>     
+            </div>
+        </div> 
+
+        <div class="header-content">
+            <div class="container-header">
+                <div class="header-txt">
+                    <span>Revitaliza tu entorno </span>
+                    <h1>Green Spaces</h1>
+                    <P>Facilita la conexión entre voluntarios y proyectos medioambientales en tu ciudad. Con solo unos clicks, 
+                        puedes participar en eventos que restauran parques, jardines y áreas verdes, contribuyendo al bienestar 
+                        de tu comunidad y el planeta. Nuestra plataforma está diseñada para que cada persona, sin importar su 
+                        experiencia, pueda marcar la diferencia.
+                    </P>
+                    <div class="butons"> 
+                        <a href="Registrate//login.html" class="btn-1">Únete ahora</a>
+                    </div>
+                </div>
+                <div class="header-img">
+                    <img src="Imagenes/Group 25.png" alt="Imagen de planta verde">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="space1 container" id="space1" > 
+        <div class="space-img">
+            <img src="Imagenes/space-imagen.png" alt="Imagen de mano con planta">
+        </div>
+        <div class="text-2">
+            <h3>
+                Juntos,<span>revitalizando los espacios</span> que nos conectan con la naturaleza. 
+            </h3>
+            <p>Únete a miles de personas que, como tú, están haciendo un cambio positivo en su comunidad. 
+                ¡Cada acción cuenta!</p>
+        </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+        <div class="overlay"></div>
+        <div class="background-img container">
+            <div class="about-content">
+                <div class="rectangle"></div>
+                <div class="about-text">
+                    <h2>Sobre Nosotros</h2>
+                    <p>Facilitamos la restauración de espacios verdes urbanos mediante la colaboración comunitaria y soluciones tecnológicas innovadoras. Conectamos personas y organizaciones para crear ciudades más sostenibles y saludables.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Imagenes/sobreNosotros.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-vision-container container">
+        <div class="mission-content">
+            <div class="mission-img">
+                <img src="Imagenes/mision.png" alt="">
+            </div>
+            <div class="mission-txt">
+                <h3>Nuestra Misión: </h3>
+                <p>Nuestra misión es liderar la revitalización y preservación de los espacios verdes urbanos, facilitando la participación comunitaria y la colaboración 
+                    entre voluntarios, organizaciones y empresas. Nos comprometemos a proporcionar soluciones tecnológicas innovadoras que permitan a las comunidades planificar, gestionar y 
+                    monitorear proyectos de restauración y mantenimiento, promoviendo un entorno urbano más saludable y sostenible.</p>
+            </div>
+        </div>
+
+        <div class="vision-contenido">
+            <div class="vision-txt">
+                <h3>Nuestra Visión:</h3>
+                <p>Aspiramos a ser la plataforma líder en la transformación de espacios verdes urbanos, estableciendo un nuevo estándar en conservación comunitaria. Buscamos expandir nuestra influencia globalmente, fomentando una cultura de responsabilidad ambiental compartida. Imaginamos un futuro en el que cada comunidad tenga espacios verdes vibrantes, sostenidos por la colaboración activa de sus habitantes.</p>
+            </div>
+            <div class="vision-img">
+                <img src="Imagenes/vision.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="our-values" id="our-values">
+        <h2>Nuestros Valores</h2>
+        <div class="our-values-container container">
+        <i class="fa-solid fa-angle-left angle" onclick="moveLeft()"></i>
+        <div class="our-values-content">
+            <div class="values-slider">
+                
+                <div class="value-card">
+                    <div class="value-img">
+                        <img src="Imagenes/valores-1.png" alt="" >
+                    </div>
+                    <h3>Transparencia y compromiso</h3>
+                    <p> Actuamos con claridad y honestidad, manteniendo una comunicación abierta con nuestras comunidades y socios.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-img">
+                        <img src="Imagenes/valores-2.png" alt="">
+                    </div>
+                    <h3>Colaboración comunitaria</h3>
+                    <p>Impulsamos la participación activa de personas, organizaciones y empresas en la restauración de espacios verdes urbanos.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-img">
+                        <img src="Imagenes/valores-3.png" alt="">
+                    </div>
+                    <h3>Responsabilidad ambiental</h3>
+                    <p>Impulsamos la participación activa de personas, organizaciones y empresas en la restauración de espacios verdes urbanos.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-img">
+                        <img src="Imagenes/valores-4.png" alt="">
+                    </div>
+                    <h3>Responsabilidad Social</h3>
+                    <p>Nos comprometemos con el desarrollo social y ambiental de las comunidades, contribuyendo a mejorar la calidad de vida de sus habitantes.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-img">
+                        <img src="Imagenes/valores-5.png" alt="">
+                    </div>
+                    <h3>Educación Ambiental</h3>
+                    <p>Promovemos soluciones innovadoras y sostenibles para la conservación de espacios urbanos, aprovechando tecnología y prácticas eco-amigables.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-img">
+                        <img src="Imagenes/valores-6.png" alt="">
+                    </div>
+                    <h3>Innovación Sostenible</h3>
+                    <p>Promovemos soluciones innovadoras y sostenibles para la conservación de espacios urbanos, aprovechando tecnología y prácticas eco-amigables.</p>
+                </div>                
+            </div>
+        </div>
+        <i class="fa-solid fa-angle-right angle" onclick="moveRight()"></i>
+        </div>
+        <div class="dots-wrapper">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <section class="how-we-do-it" id="how-we-do-it">   
+        <div class="how-we-do-it-container container">
+            <div class="how-we-do-it-content">
+                <div class="how-we-do-it-title">
+                    <h2>¿Como logramos rehabilitar <span>espacios</span>?</h2>
+                    <p>Transformamos comunidades mediante la colaboración y el cuidado del medio ambiente.</p>
+                </div>
+                <div class="how-we-do">  
+                    <div class="h1">
+                        <div class="img-1">
+                            <img src="Imagenes/image 13.png" alt="">
+                        </div>
+                        <div class="hacemos-txt">
+                            <h3>Conexión de Voluntarios con Proyecto</h3>
+                            <p>Unimos a voluntarios con proyectos de revitalización de espacios verdes en su ciudad o comunidad.</p>
+                        </div>
+                    </div>   
+                    <div class="h1">
+                        <div class="img-1">
+                            <img src="Imagenes/image 11.png" alt="">
+                        </div>
+                        <div class="hacemos-txt">
+                            <h3>Eventos Comunitarios</h3>
+                            <p>Organizamos y gestionamos eventos para la limpieza y restauración de parques, jardines y áreas verdes.</p>
+                        </div>
+                    </div>
+                    <div class="h1">
+                        <div class="img-1">
+                            <img src="Imagenes/image 14.png" alt="">
+                        </div>
+                        <div class="hacemos-txt">
+                            <h3>Participación Fácil y Rápida</h3>
+                            <p>Los voluntarios se inscriben fácilmente a eventos desde nuestra app, eligiendo los proyectos que más les interesen.</p>
+                        </div>
+                    </div>
+                    <div class="h1">
+                        <div class="img-1">
+                            <img src="Imagenes/image 12.png" alt="">
+                        </div>
+                        <div class="hacemos-txt">
+                            <h3>Recompensas por Participación</h3>
+                            <p>Los participantes ganan puntos y logros que pueden canjear por beneficios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="how-we-do-it-img">
+                <img src="Imagenes/imagen-comohacemos.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-container container" id="benefits-container">
+        <div class="benefits-img">
+            <img src="Imagenes/imagen-beneficios.jpg" alt="Imagen de parque">
+        </div>
+        <div class="benefits-title">
+            <div class="benefits-title-container">
+                <div class="title-txt">
+                    <h2>Beneficios de unirte a <span>GreenSpaces</span></h2>
+                    <p>¡Participa y gana puntos!</p>
+                </div>
+                <div class="benefits-title-img">
+                    <img src="Imagenes/imagen-titulo-beneficios.png" alt="Imagen de parque">
+                </div>
+            </div>
+            <div class="benefits-content">
+                <div class="benefits b1">
+                    <div class="benefits-content-img">
+                        <img src="Imagenes/imagen-beneficios-1.png" alt="Imagen de medalla">
+                    </div>
+                    <div class="benefits-txt">
+                        <h3>Gana recompensas</h3>
+                        <p>Acumula puntos por cada evento en el que participes y canjéalos por beneficios exclusivos</p>
+                    </div>
+                </div>
+                <div class="benefits b2">
+                    <div class="benefits-content-img">
+                        <img src="Imagenes/imagen-beneficios-2.png" alt="Imagen de parque">
+                    </div>
+                    <div class="benefits-txt">
+                        <h3>Conéctate con tu comunidad</h3>
+                        <p>Forma parte de una red de voluntarios comprometidos con la sostenibilidad y trabaja mano a mano con vecinos y organizaciones locales.</p>
+                    </div>
+                </div>
+                <div class="benefits b3">
+                    <div class="benefits-content-img">
+                        <img src="Imagenes/imagen-beneficios-3.png" alt="Imagen de parque">
+                    </div>
+                    <div class="benefits-txt">
+                        <h3>Contribuye al medio ambiente</h3>
+                        <p>Participa en la restauración de espacios verdes cercanos y contribuye a la sostenibilidad del planeta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="inscription-section" id="inscription-section">
+        <div class="container-section">
+            <div class="download-container">
+                <h2>¡Empieza a hacer un cambio!</h2>
+                <div class="download-buttons">
+                    <a href="#"><img src="Imagenes/googlePlay.png" alt="Google Play"></a>
+                    <a href="#"><img src="Imagenes/appStore.png" alt="App Store"></a>
+                </div>
+                <div class="social-media">
+                    <a href="#"><img src="Imagenes/tiktok-logo.png" alt="TikTok"></a>
+                    <a href="#"><img src="Imagenes/telegram-img.png" alt="Telegram"></a>
+                    <a href="#"><img src="Imagenes/facebook-img.png" alt="Facebook"></a>
+                    <a href="#"><img src="Imagenes/instagram-img.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="form-container">
+                <form name="frm" method="post" action="">
+                    <fieldset id="form">
+                        <legend>Contáctanos</legend>
+                        <img src="Imagenes/logo.png" alt="Logo" class="form-logo">
+                        <ol>
+                            <li><label>Nombre:</label><input type="text" name="fname" size="30" required></li>
+                            <li><label>Apellido:</label><input type="text" name="fname" size="30" required></li>
+                            <li><label>Telefono:</label><input type="text" name="fphone" size="30" required></li>
+                            <li><label>Email:</label><input type="email" name="femail" size="30" required></li>
+                            <li><label>Asunto:</label>
+                                <textarea name="subject" rows="4" cols="28" required></textarea></li>
+                        </ol>
+                        <p><input class="btn-frm-insc" type="submit" value="Enviar"></p>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Sobre Nosotros</h3>
+                <ul>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Misión y Visión</a></li>
+                    <li><a href="#">Póliticas, Reglamentos y Normas</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Servicios</h3>
+                <ul>
+                    <li><a href="#">Proyectos Comunitarios</a></li>
+                    <li><a href="#">Revitalización de Espacios Verdes</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contáctanos</h3>
+                <ul>
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="#">Redes Sociales</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Políticas</h3>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <hr class="footer-line">
+        <div class="footer-bottom">
+            <p>&copy; 2024 Green Spaces - Todos los Derechos Reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
