@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background-color: #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/b3/ae/ec/b3aeec8ff56867e8530a949da9a368b4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.login-box{
+    display: flex;
+}
+
+.form-wrapper{
+    background-color: rgba(0,0,0,0.08);
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 12px;
+}
+
+.login-form{
+    width: 100%;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+h1{
+    font: size 42px;
+    margin: bottom 20px;
+}
+
+
+.input-group{
+    margin-bottom: 20px;
+}
+label{
+    font-size: 14px;
+    color:#555
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd
+}
+.forgot-password{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a{
+    color: #ff6433;
+    text-decoration: none;
+    font-size: 14px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border: radius 6px;
+    background-color: #00a133fc;
+    color: #Fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-form p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.social-login{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    gap:10px;
+    margin-top: 5px;
+    padding: 20px 0;
+}
+
+.social-button{
+    flex: 1;
+    padding: 10px;
+    border-radius: 60px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #Fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image-section {
+    display:flex;
+    align-items: center;
+    padding: 40px;
+    width: 500px;
+    background-color: transparent;
+}   
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    transition: box-shadow 0.3s ease;
+}
+
+.image-section img:hover{
+    animation: giggle 0.9s ease-in-out infinite;
+}
+
+.fa-brands{
+    color: black;
+}
+
+@keyframes giggle {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}
