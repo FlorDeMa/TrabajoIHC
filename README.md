@@ -30,3 +30,10 @@ Empresas y ONG’s: Entidades interesadas en contribuir a la sostenibilidad y fo
 Problema: Necesidad de colaboración centralizada y visibilidad en proyectos sostenibles.
 Solución: Espacio para patrocinar iniciativas y documentar su impacto.
 
+## Principales Características
+Gestión de eventos: Organización de eventos comunitarios para limpieza, plantación y restauración de espacios verdes.
+Sistema de recompensas: Los usuarios acumulan puntos por participar en actividades y pueden canjearlos por promociones ofrecidas por empresas asociadas.
+Integración con redes sociales: Facilita la difusión de eventos y permite a los usuarios compartir sus logros y experiencias.
+Sistema de notificaciones: Mantiene a los usuarios informados sobre nuevos eventos, recordatorios y promociones disponibles.
+Panel de control para empresas: Las empresas pueden gestionar sus promociones
+
