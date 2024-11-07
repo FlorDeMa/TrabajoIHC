@@ -16,8 +16,13 @@ Descripción: Plataforma para revitalizar espacios verdes urbanos mediante la co
 - Fomentar la participación comunitaria en la conservación.
 - Conectar actores clave para un impacto ambiental positivo.
 - Promover el bienestar comunitario a través de áreas verdes mejoradas.
+- 
 ## Segmentos Objetivo
+
 ### Residentes Urbanos: Ciudadanos que buscan un entorno saludable y desean participar en la mejora de parques y jardines.
+### Autoridades Municipales: Responsables de gestionar y mantener espacios verdes.
+### Empresas y ONG’s: Entidades interesadas en contribuir a la sostenibilidad y fortalecer su imagen social.
+
 ## Problematicas y Soluciones
 ### Problema: Deterioro de espacios verdes y baja participación.
 Solución: Herramientas de planificación y monitoreo de actividades comunitarias.
