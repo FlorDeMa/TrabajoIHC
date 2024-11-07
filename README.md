@@ -8,7 +8,7 @@
 - Rodriguez Macedo, Sebastian
 
 ## Información del Proyecto
---> Nombre: GreenSpaces
+### Nombre: GreenSpaces
 Descripción: Plataforma para revitalizar espacios verdes urbanos mediante la colaboración de voluntarios, empresas y autoridades. Facilita la organización de eventos, gestión de proyectos de restauración, y fomenta la conexión entre personas interesadas en la mejora ambiental. 
 
 ## Objetivos de GreenSpaces
@@ -16,9 +16,9 @@ Descripción: Plataforma para revitalizar espacios verdes urbanos mediante la co
 - Fomentar la participación comunitaria en la conservación.
 - Conectar actores clave para un impacto ambiental positivo.
 - Promover el bienestar comunitario a través de áreas verdes mejoradas.
-# Segmentos Objetivo
---> Residentes Urbanos: Ciudadanos que buscan un entorno saludable y desean participar en la mejora de parques y jardines.
-# Problematicas y Soluciones
+## Segmentos Objetivo
+### Residentes Urbanos: Ciudadanos que buscan un entorno saludable y desean participar en la mejora de parques y jardines.
+## Problematicas y Soluciones
 Problema: Deterioro de espacios verdes y baja participación.
 Solución: Herramientas de planificación y monitoreo de actividades comunitarias.
 Autoridades Municipales: Responsables de gestionar y mantener espacios verdes.
