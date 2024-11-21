@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9bc01e1fd5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <title>GreenSpaces</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
-    <header class="header">        
+    <header class="header" id="header">        
         <div class="header-above"> 
             <div class="menu container">
                 <div class="logo-container">
@@ -21,19 +25,26 @@
                 </label>
                 <nav class="nav-menu">
                     <ul>
-                        <li> <a href="#">Inicio</a></li>
-                        <li> <a href="#">Sobre Nosotros</a>
+                        <li> <a href="#Inicio">Inicio</a></li>
+                        <li> <a href="Nosotros/us.html#about-us">Nosotros</a>
                             <ul class="menu-vertical">
-                                <li><a href="#our-values">Nuestros Valores</a></li>
+                                <li><a href="Nosotros/us.html#our-values">Nuestros Valores</a></li>
                             </ul>
                         </li>
-                        <li> <a href="#">Nuestra propuesta</a>
+                        <li> <a href="#space1">Nuestra propuesta</a>
                             <ul class="menu-vertical">
                                 <li><a href="#how-we-do-it">Como lo hacemos</a></li>
                                 <li><a href="#benefits-container">Beneficios</a></li>
                             </ul>
                         </li>
-                        <li> <a href="#inscription-section">Contacto</a></li>
+                        <li> <a href="#testimonials">Resultados</a>
+                            <ul class="menu-vertical">
+                                <li><a href="#success-cases">Casos de Exito</a></li>
+                                <li><a href="#testimonials">Testimonios</a></li>
+                            </ul>   
+                        </li>
+                        <li> <a href="Preguntas/questions.html">Preguntas</a></li>
+                        <li> <a href="#contact-section">Contacto</a></li>
                     </ul>
                 </nav>
                 <div class="registrate butons">
@@ -43,10 +54,13 @@
         </div> 
 
         <div class="header-content">
-            <div class="container-header">
+            <div class="container-header container">
                 <div class="header-txt">
                     <span>Revitaliza tu entorno </span>
                     <h1>Green Spaces</h1>
+                    <div class="header1-img">
+                        <img src="Imagenes/Group 25.png" alt="Imagen de planta verde">
+                    </div>
                     <P>Facilita la conexión entre voluntarios y proyectos medioambientales en tu ciudad. Con solo unos clicks, 
                         puedes participar en eventos que restauran parques, jardines y áreas verdes, contribuyendo al bienestar 
                         de tu comunidad y el planeta. Nuestra plataforma está diseñada para que cada persona, sin importar su 
@@ -73,111 +87,6 @@
             </h3>
             <p>Únete a miles de personas que, como tú, están haciendo un cambio positivo en su comunidad. 
                 ¡Cada acción cuenta!</p>
-        </div>
-    </section>
-
-    <section class="about-us" id="about-us">
-        <div class="overlay"></div>
-        <div class="background-img container">
-            <div class="about-content">
-                <div class="rectangle"></div>
-                <div class="about-text">
-                    <h2>Sobre Nosotros</h2>
-                    <p>Facilitamos la restauración de espacios verdes urbanos mediante la colaboración comunitaria y soluciones tecnológicas innovadoras. Conectamos personas y organizaciones para crear ciudades más sostenibles y saludables.</p>
-                </div>
-                <div class="about-image">
-                    <img src="Imagenes/sobreNosotros.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mission-vision-container container">
-        <div class="mission-content">
-            <div class="mission-img">
-                <img src="Imagenes/mision.png" alt="">
-            </div>
-            <div class="mission-txt">
-                <h3>Nuestra Misión: </h3>
-                <p>Nuestra misión es liderar la revitalización y preservación de los espacios verdes urbanos, facilitando la participación comunitaria y la colaboración 
-                    entre voluntarios, organizaciones y empresas. Nos comprometemos a proporcionar soluciones tecnológicas innovadoras que permitan a las comunidades planificar, gestionar y 
-                    monitorear proyectos de restauración y mantenimiento, promoviendo un entorno urbano más saludable y sostenible.</p>
-            </div>
-        </div>
-
-        <div class="vision-contenido">
-            <div class="vision-txt">
-                <h3>Nuestra Visión:</h3>
-                <p>Aspiramos a ser la plataforma líder en la transformación de espacios verdes urbanos, estableciendo un nuevo estándar en conservación comunitaria. Buscamos expandir nuestra influencia globalmente, fomentando una cultura de responsabilidad ambiental compartida. Imaginamos un futuro en el que cada comunidad tenga espacios verdes vibrantes, sostenidos por la colaboración activa de sus habitantes.</p>
-            </div>
-            <div class="vision-img">
-                <img src="Imagenes/vision.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section class="our-values" id="our-values">
-        <h2>Nuestros Valores</h2>
-        <div class="our-values-container container">
-        <i class="fa-solid fa-angle-left angle" onclick="moveLeft()"></i>
-        <div class="our-values-content">
-            <div class="values-slider">
-                
-                <div class="value-card">
-                    <div class="value-img">
-                        <img src="Imagenes/valores-1.png" alt="" >
-                    </div>
-                    <h3>Transparencia y compromiso</h3>
-                    <p> Actuamos con claridad y honestidad, manteniendo una comunicación abierta con nuestras comunidades y socios.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-img">
-                        <img src="Imagenes/valores-2.png" alt="">
-                    </div>
-                    <h3>Colaboración comunitaria</h3>
-                    <p>Impulsamos la participación activa de personas, organizaciones y empresas en la restauración de espacios verdes urbanos.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-img">
-                        <img src="Imagenes/valores-3.png" alt="">
-                    </div>
-                    <h3>Responsabilidad ambiental</h3>
-                    <p>Impulsamos la participación activa de personas, organizaciones y empresas en la restauración de espacios verdes urbanos.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-img">
-                        <img src="Imagenes/valores-4.png" alt="">
-                    </div>
-                    <h3>Responsabilidad Social</h3>
-                    <p>Nos comprometemos con el desarrollo social y ambiental de las comunidades, contribuyendo a mejorar la calidad de vida de sus habitantes.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-img">
-                        <img src="Imagenes/valores-5.png" alt="">
-                    </div>
-                    <h3>Educación Ambiental</h3>
-                    <p>Promovemos soluciones innovadoras y sostenibles para la conservación de espacios urbanos, aprovechando tecnología y prácticas eco-amigables.</p>
-                </div>
-
-                <div class="value-card">
-                    <div class="value-img">
-                        <img src="Imagenes/valores-6.png" alt="">
-                    </div>
-                    <h3>Innovación Sostenible</h3>
-                    <p>Promovemos soluciones innovadoras y sostenibles para la conservación de espacios urbanos, aprovechando tecnología y prácticas eco-amigables.</p>
-                </div>                
-            </div>
-        </div>
-        <i class="fa-solid fa-angle-right angle" onclick="moveRight()"></i>
-        </div>
-        <div class="dots-wrapper">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
         </div>
     </section>
 
@@ -227,17 +136,17 @@
                     </div>
                 </div>
             </div>
-            <div class="how-we-do-it-img">
+            <!-- <div class="how-we-do-it-img">
                 <img src="Imagenes/imagen-comohacemos.png" alt="">
             </div>
-        </div>
+        </div> -->
     </section>
 
     <section class="benefits-container container" id="benefits-container">
-        <div class="benefits-img">
+        <div class="benefits-img" data-aos="fade-right">
             <img src="Imagenes/imagen-beneficios.jpg" alt="Imagen de parque">
         </div>
-        <div class="benefits-title">
+        <div class="benefits-title" data-aos="fade-left">
             <div class="benefits-title-container">
                 <div class="title-txt">
                     <h2>Beneficios de unirte a <span>GreenSpaces</span></h2>
@@ -248,7 +157,7 @@
                 </div>
             </div>
             <div class="benefits-content">
-                <div class="benefits b1">
+                <div class="benefits b1" data-aos="fade-up">
                     <div class="benefits-content-img">
                         <img src="Imagenes/imagen-beneficios-1.png" alt="Imagen de medalla">
                     </div>
@@ -257,7 +166,7 @@
                         <p>Acumula puntos por cada evento en el que participes y canjéalos por beneficios exclusivos</p>
                     </div>
                 </div>
-                <div class="benefits b2">
+                <div class="benefits b2" data-aos="fade-up" data-aos-delay="100">
                     <div class="benefits-content-img">
                         <img src="Imagenes/imagen-beneficios-2.png" alt="Imagen de parque">
                     </div>
@@ -266,7 +175,7 @@
                         <p>Forma parte de una red de voluntarios comprometidos con la sostenibilidad y trabaja mano a mano con vecinos y organizaciones locales.</p>
                     </div>
                 </div>
-                <div class="benefits b3">
+                <div class="benefits b3" data-aos="fade-up" data-aos-delay="200">
                     <div class="benefits-content-img">
                         <img src="Imagenes/imagen-beneficios-3.png" alt="Imagen de parque">
                     </div>
@@ -279,40 +188,276 @@
         </div>
     </section>
 
-    <section class="inscription-section" id="inscription-section">
-        <div class="container-section">
-            <div class="download-container">
-                <h2>¡Empieza a hacer un cambio!</h2>
-                <div class="download-buttons">
-                    <a href="#"><img src="Imagenes/googlePlay.png" alt="Google Play"></a>
-                    <a href="#"><img src="Imagenes/appStore.png" alt="App Store"></a>
+
+    <section class="testimonials" id="testimonials">
+        <h2>Testimonios</h2>
+        <p>¡Conoce que opinan nuestros voluntarios!</p>
+        <div class="testimonials-container container">
+        <div class="testimonials-content">
+            <div class="testimonials-slider">               
+                <div class="testimonial-card">
+                    <div class="quotes-img">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <p>"GreenSpaces ha cambiado la forma en que colaboramos como comunidad. ¡Un gran impulso para el medio ambiente!"</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="Imagenes/perfil-1.jpg" alt="Client Image" class="client-img">
+                        <div>
+                            <span>Ana López</span> 
+                            <p class="client-profession">Voluntaria</p>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="testimonial-card">
+                    <div class="quotes-img">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <p>"Participar en los eventos de GreenSpaces ha sido increíble. Es gratificante ver el impacto que generamos."</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="Imagenes/perfil-2.jpg" alt="Client Image" class="client-img">
+                        <div>
+                            <span>Lucía Fernández</span>
+                            <p class="client-profession">Voluntaria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quotes-img">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <p>"Una plataforma innovadora que realmente conecta a las personas con la naturaleza. ¡Altamente recomendada!"</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="Imagenes/perfil-3.jpeg" alt="Client Image" class="client-img">
+                        <div>
+                            <span>Carlos García </span>
+                            <p class="client-profession">Voluntario</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quotes-img">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <p>"Gracias a GreenSpaces, mis hijos ahora disfrutan de parques más limpios y seguros."</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="Imagenes/perfil-4.jpg" alt="Client Image" class="client-img">
+                        <div>
+                            <span>Laura Torres</span>
+                            <p class="client-profession">Voluntaria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quotes-img">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <p>"GreenSpaces es un modelo de lo que puede lograrse cuando trabajamos juntos por el planeta."</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="Imagenes/perfil-5.avif" alt="Client Image" class="client-img">
+                        <div>
+                            <span>Felipe Gómez</span>
+                            <p class="client-profession">Voluntario</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quotes-img">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-quote">
+                        <p>"Los recursos y la organización que ofrece esta app son excepcionales. ¡Bravo GreenSpaces!”</p>
+                    </div>
+                    <div class="client-info">
+                        <img src="Imagenes/perfil-6.jpg" alt="Client Image" class="client-img">
+                        <div>
+                            <span>Melisa Paredes</span>
+                            <p class="client-profession">Voluntaria</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        </div>
+        <div class="dots-wrapper">
+            <span class="dot" id="prev"></span>
+            <span class="dot" id="next"></span>
+        </div>
+    </section>
+
+    <section class="success-cases container" id="success-cases">
+        <h2>Casos de Éxito</h2>
+        <div class="cases-slider">
+
+            <div class="case-card">
+                <div class="card-left">
+                    <img src="Imagenes/Exito-1.png" alt="Evento Puente Piedra">
+                </div>
+                <div class="card-right">
+                    <h3>Evento Puente Piedra</h3>
+                    <p>GreenSpaces lideró un proyecto de limpieza y reforestación en Puente Piedra, 
+                    recuperando áreas descuidadas y creando espacios verdes accesibles para la comunidad.</p>
+                    <div class="stats">
+                        <div class="background-form"><span class="number">+40</span>
+                            <span class="text">Árboles plantados</span></div>
+                        <div class="background-form">        <span class="number">+30</span>
+                            <span class="text">Voluntarios</span></div>
+                        <div class="background-form">        <span class="number">+100</span>
+                            <span class="text">Beneficiados</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-card">
+                <div class="card-left">
+                    <img src="Imagenes/Exito-2.png" alt="Evento Carabayllo">
+                </div>
+                <div class="card-right">
+                    <h3>Evento Carabayllo</h3>
+                    <p>En Carabayllo, GreenSpaces trabajó junto a la comunidad para transformar una zona erosionada 
+                    en un nuevo parque con jardines comunitarios y áreas de esparcimiento.</p>
+                    <div class="stats">
+                        <div class="background-form">        
+                            <span class="number">+100</span>
+                            <span class="text">Árboles plantados</span>
+                        </div>
+                        <div class="background-form">        
+                            <span class="number">+100</span>
+                            <span class="text">Voluntarios</span>
+                        </div>
+                        <div class="background-form">        
+                            <span class="number">+100</span>
+                            <span class="text">Beneficiados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-card">
+                <div class="card-left">
+                    <img src="Imagenes/Exito-4.png" alt="Evento San Juan de Lurigancho">
+                </div>
+                <div class="card-right">
+                    <h3>Evento San Juan de Lurigancho</h3>
+                    <p>En San Juan de Lurigancho, organizamos una gran jornada de limpieza y educación ambiental, 
+                    involucrando a jóvenes locales para cuidar y preservar sus áreas verdes.</p>
+                    <div class="stats">
+                        <div class="background-form">        
+                            <span class="number">+100</span>
+                            <span class="text">Árboles plantados</span>
+                        </div>
+                        <div class="background-form">        
+                            <span class="number">+100</span>
+                            <span class="text">Voluntarios</span>
+                        </div>
+                        <div class="background-form">        
+                            <span class="number">+100</span>
+                            <span class="text">Beneficiados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <i class="fa-solid fa-angle-left angle" onclick="moveLeft()"></i>
+            <i class="fa-solid fa-angle-right angle" onclick="moveRight()"></i>
+        </div>
+    </section>
+
+    <section class="event-section container" id="event-section">
+        <div class="map-container">
+            <iframe id="event-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.5865100609813!2d-77.04917671259685!3d-11.93383803040765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d1abcc378795%3A0x9e73e5ca8aca065f!2sArea%20P%C3%BAblica%20Cultural!5e0!3m2!1ses-419!2spe!4v1732088548533!5m2!1ses-419!2spe" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="details-container">
+            <h2>Encuentra un <span class="highlight">Evento</span></h2>
+            <p>Organizamos eventos para revitalizar y cuidar nuestros espacios verdes. Selecciona un evento del menú desplegable para descubrir más detalles sobre este.</p>
+            <select id="event-selector">
+                <option value="0">Selecciona un evento</option>
+                <option value="1">Evento La Perla</option>
+                <option value="2">Evento Los Olivos- Parque monumental</option>
+                <option value="3">Evento Carabayllo</option>
+            </select>
+            <div class="event-card">
+                <div class="event-info">
+                    <p><strong>Evento:</strong> <span id="event-name">Área Pública Cultural</span></p>
+                    <p><strong>Lugar:</strong> <span id="event-location">Comas</span></p>
+                    <p><strong>Fecha Inicio:</strong> <span id="event-date">12/03/2024</span></p>
+                    <p><strong>Horario:</strong> <span id="event-time">9pm</span></p>
+                    <p id="event-description">Plantar Árboles</p>
+                </div>
+                <div class="registro-img">
+                    <img src="Imagenes/avatar-png.png" alt="Avatar" class="event-avatar">
+                    <button class="register-btn">Regístrate</button>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+    <section class="contact-section container" id="contact-section">
+        <div class="container-section">
+            <div class="contact-info">
+                <h2>Contáctanos</h2>
+                <p><i class="fa-regular fa-envelope"></i>contact@greenspaces.com</p>
+                <p><i class="fa-solid fa-phone"></i> +01 5674321</p>
+                <p><i class="fa-solid fa-mobile-retro"></i> +51 987 654 321</p>
                 <div class="social-media">
-                    <a href="#"><img src="Imagenes/tiktok-logo.png" alt="TikTok"></a>
-                    <a href="#"><img src="Imagenes/telegram-img.png" alt="Telegram"></a>
-                    <a href="#"><img src="Imagenes/facebook-img.png" alt="Facebook"></a>
-                    <a href="#"><img src="Imagenes/instagram-img.png" alt="Instagram"></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
             <div class="form-container">
                 <form name="frm" method="post" action="">
-                    <fieldset id="form">
-                        <legend>Contáctanos</legend>
-                        <img src="Imagenes/logo.png" alt="Logo" class="form-logo">
-                        <ol>
-                            <li><label>Nombre:</label><input type="text" name="fname" size="30" required></li>
-                            <li><label>Apellido:</label><input type="text" name="fname" size="30" required></li>
-                            <li><label>Telefono:</label><input type="text" name="fphone" size="30" required></li>
-                            <li><label>Email:</label><input type="email" name="femail" size="30" required></li>
-                            <li><label>Asunto:</label>
-                                <textarea name="subject" rows="4" cols="28" required></textarea></li>
-                        </ol>
-                        <p><input class="btn-frm-insc" type="submit" value="Enviar"></p>
-                    </fieldset>
+                    <h2>Manda un Mensaje</h2>
+                    <p>¿Tienes alguna pregunta, sugerencia o quieres colaborar con nosotros? ¡Estamos aquí para escucharte!</p>
+                    <ol>
+                        <li><input type="text" name="fname" placeholder="Nombre" required></li>
+                        <li><input type="text" name="flastName" placeholder="Apellido" required></li>
+                        <li><input type="text" name="fphone" placeholder="Telefono" required></li>
+                        <li><input type="text" name="femail" placeholder="Correo" required></li>
+                        <li><textarea name="fmessage" rows="4" placeholder="Dejanos un mensaje" required></textarea></li>
+                    </ol>
+                    <p><input class="btn-frm-insc" type="submit" value="Enviar"></p>
                 </form>
             </div>
         </div>
     </section>
+
+    <section class="chatbot-container">
+        <button class="chat-bot-toggler">
+            <span class="material-symbols-outlined">mode_comment</span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="chat-bot">
+            <div class="title">Chat</div>
+            <div class="chat" id="chat"></div>
+            <div class="search-container">
+                <form class="search-form" onsubmit="event.preventDefault(); sendMessage();">
+                    <input type="search" id="input" placeholder="Escribe tu mensaje aqui..." />
+                    <button type="button" id="button" class="btn-search button" >
+                        <i class="fa-soli fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
 
     <footer class="footer-section">
         <div class="footer-container">
@@ -335,14 +480,14 @@
                 <h3>Contáctanos</h3>
                 <ul>
                     <li><a href="#">Contactanos</a></li>
-                    <li><a href="#">Redes Sociales</a></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h3>Políticas</h3>
+                <h3>Redes Sociales</h3>
                 <ul>
-                    <li><a href="#">Política de Privacidad</a></li>
-                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Facebook</a></li>
                 </ul>
             </div>
         </div>
@@ -353,6 +498,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+<script src="JvsCode/script.js"></script>
+<script src="JvsCode/chatBot.js"></script>
 </body>
 </html>
